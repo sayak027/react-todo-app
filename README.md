@@ -1,16 +1,87 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Todo application built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+The project was created to practice React fundamentals, state management, event handling, array methods, and browser local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Add new tasks
+* Edit existing tasks
+* Delete individual tasks
+* Mark tasks as completed
+* Filter tasks by:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * All
+  * Active
+  * Completed
+* Clear completed tasks
+* Clear all tasks
+* Tasks persist using `localStorage`
+* Responsive UI
+* Dark-themed interface
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* React
+* JavaScript
+* Tailwind CSS
+* Vite
+* Browser Local Storage
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/sayak027/react-todo-app.git
+```
+
+### Navigate to the project
+
+```bash
+cd react-todo-app
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL provided by Vite.
+
+## Project Purpose
+
+This project was built as part of my React learning journey to practice:
+
+* `useState`
+* `useEffect`
+* Controlled components
+* Event handling
+* Conditional rendering
+* Array `map()` and `filter()`
+* Immutable state updates
+* `localStorage`
+* Dynamic Tailwind CSS classes
+
+## Future Improvements
+
+* Add task priorities
+* Add due dates
+* Add drag-and-drop task ordering
+* Add task search
+* Improve accessibility
+* Add backend/database persistence
+
+## Author
+
+**Sayak Rudra**
+
+GitHub: https://github.com/sayak027
