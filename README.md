@@ -2,6 +2,8 @@
 
 A simple and responsive Todo application built with **React** and **Tailwind CSS**.
 
+**🚀 Live Demo:** [View Todo App](https://sayak-todo.vercel.app/)
+
 The project was created to practice React fundamentals, state management, event handling, array methods, and browser local storage.
 
 ## Features
